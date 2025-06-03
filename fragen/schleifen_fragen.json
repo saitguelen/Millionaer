@@ -1,0 +1,184 @@
+{
+    "kategorie": "OOP Grundlagen",
+    "fragen":[
+    {
+        "kategorie": "Schleifen",
+        "level": "einfach",
+        "frage": "Welche Schleife wird in Java verwendet, um einen Block mehrmals auszuführen, solange eine Bedingung wahr ist?",
+        "optionen": [
+            "A: if",
+            "B: for",
+            "C: switch",
+            "D: break"
+        ],
+        "richtigeAntwort": 1
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "einfach",
+        "frage": "Welche Schleife prüft die Bedingung am Ende der Schleife?",
+        "optionen": [
+            "A: for",
+            "B: while",
+            "C: do-while",
+            "D: switch"
+        ],
+        "richtigeAntwort": 2
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "einfach",
+        "frage": "Welche Schleife ist geeignet, wenn man die Anzahl der Wiederholungen im Voraus kennt?",
+        "optionen": [
+            "A: while",
+            "B: do-while",
+            "C: for",
+            "D: if"
+        ],
+        "richtigeAntwort": 2
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "einfach",
+        "frage": "Wie beginnt eine 'for'-Schleife in Java?",
+        "optionen": [
+            "A: for i = 0",
+            "B: for (int i = 0; i < n; i++)",
+            "C: repeat(i < n)",
+            "D: loop i in range"
+        ],
+        "richtigeAntwort": 1
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "einfach",
+        "frage": "Was macht die 'break'-Anweisung in einer Schleife?",
+        "optionen": [
+            "A: Wiederholt die Schleife",
+            "B: Springt zur nächsten Iteration",
+            "C: Beendet die Schleife",
+            "D: Macht nichts"
+        ],
+        "richtigeAntwort": 2
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "mittel",
+        "frage": "Wie viele Male wird der folgende Codeblock ausgeführt? for (int i = 0; i < 5; i++)",
+        "optionen": [
+            "A: 4",
+            "B: 5",
+            "C: 6",
+            "D: unendlich"
+        ],
+        "richtigeAntwort": 1
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "mittel",
+        "frage": "Welche Ausgabe erzeugt: for (int i = 1; i <= 3; i++) { System.out.print(i); }",
+        "optionen": [
+            "A: 123",
+            "B: 012",
+            "C: 0123",
+            "D: 321"
+        ],
+        "richtigeAntwort": 0
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "mittel",
+        "frage": "Welche Schleife wird auf jeden Fall mindestens einmal ausgeführt?",
+        "optionen": [
+            "A: for",
+            "B: while",
+            "C: do-while",
+            "D: keine"
+        ],
+        "richtigeAntwort": 2
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "mittel",
+        "frage": "Was macht continue in einer Schleife?",
+        "optionen": [
+            "A: Beendet die Schleife",
+            "B: Überspringt die aktuelle Iteration",
+            "C: Startet das Programm neu",
+            "D: Erhöht den Schleifenzähler"
+        ],
+        "richtigeAntwort": 1
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "mittel",
+        "frage": "Was ist das Ergebnis? int i=0; while(i<3){ i++; System.out.print(i); }",
+        "optionen": [
+            "A: 012",
+            "B: 123",
+            "C: 345",
+            "D: 111"
+        ],
+        "richtigeAntwort": 1
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "schwer",
+        "frage": "Welche Schleife kann zu einer Endlosschleife führen, wenn die Bedingung nie falsch wird?",
+        "optionen": [
+            "A: for",
+            "B: while",
+            "C: do-while",
+            "D: alle"
+        ],
+        "richtigeAntwort": 3
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "schwer",
+        "frage": "Was passiert, wenn i nicht erhöht wird in for (int i=0; i<5;)?",
+        "optionen": [
+            "A: Fehler",
+            "B: Einmal ausgeführt",
+            "C: Endlosschleife",
+            "D: Nichts"
+        ],
+        "richtigeAntwort": 2
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "schwer",
+        "frage": "Wie viele Sterne werden ausgegeben? for(int i=0;i<3;i++){ for(int j=0;j<2;j++){ System.out.print(\"*\"); } }",
+        "optionen": [
+            "A: 3",
+            "B: 6",
+            "C: 9",
+            "D: 2"
+        ],
+        "richtigeAntwort": 1
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "schwer",
+        "frage": "Was erzeugt den gleichen Effekt wie for(int i=0;i<10;i++)?",
+        "optionen": [
+            "A: while(i<10)",
+            "B: do{i++;}while(i<10)",
+            "C: int i=0; while(i<10){ i++; }",
+            "D: alle"
+        ],
+        "richtigeAntwort": 3
+    },
+    {
+        "kategorie": "Schleifen",
+        "level": "schwer",
+        "frage": "Welche der folgenden ist KEINE gültige for-Schleife?",
+        "optionen": [
+            "A: for(;;)",
+            "B: for(i=0;i<10;i++)",
+            "C: for(int i=0;i<10)",
+            "D: for(int i=0;i<10;i++)"
+        ],
+        "richtigeAntwort": 2
+    }
+]}

@@ -1,0 +1,184 @@
+{
+    "kategorie": "OOP Grundlagen",
+    "fragen":[
+    {
+        "frage": "Welche Methode ist der Einstiegspunkt in ein Java-Programm?",
+        "optionen": [
+            "A: start()",
+            "B: main()",
+            "C: run()",
+            "D: init()"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "leicht"
+    },
+    {
+        "frage": "Welcher Datentyp wird für ganze Zahlen verwendet?",
+        "optionen": [
+            "A: float",
+            "B: boolean",
+            "C: int",
+            "D: char"
+        ],
+        "korrekteAntwort": 2,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "leicht"
+    },
+    {
+        "frage": "Was bedeutet '//' in Java?",
+        "optionen": [
+            "A: Division",
+            "B: Einzeiliger Kommentar",
+            "C: Schleife",
+            "D: Operator"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "leicht"
+    },
+    {
+        "frage": "Welche Anweisung wird verwendet, um andere Klassen zu verwenden?",
+        "optionen": [
+            "A: include",
+            "B: import",
+            "C: use",
+            "D: reference"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "leicht"
+    },
+    {
+        "frage": "Was ergibt der Ausdruck 5 + 3 * 2 in Java?",
+        "optionen": [
+            "A: 16",
+            "B: 11",
+            "C: 13",
+            "D: 10"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "leicht"
+    },
+    {
+        "frage": "Was ist das Ergebnis von 10 / 3 in Java, wenn beide Operanden vom Typ int sind?",
+        "optionen": [
+            "A: 3.33",
+            "B: 3",
+            "C: 4",
+            "D: 3.0"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "mittel"
+    },
+    {
+        "frage": "Welche der folgenden Optionen ist ein gültiger Bezeichner in Java?",
+        "optionen": [
+            "A: 2value",
+            "B: _value",
+            "C: value!",
+            "D: #value"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "mittel"
+    },
+    {
+        "frage": "Welche dieser Datentypen benötigt am meisten Speicherplatz?",
+        "optionen": [
+            "A: int",
+            "B: double",
+            "C: short",
+            "D: byte"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "mittel"
+    },
+    {
+        "frage": "Was ist der Standardwert einer nicht initialisierten int-Variablen in einer Klasse?",
+        "optionen": [
+            "A: null",
+            "B: 0",
+            "C: undefined",
+            "D: -1"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "mittel"
+    },
+    {
+        "frage": "Welche Aussage über Java-Operatoren ist korrekt?",
+        "optionen": [
+            "A: '==' prüft den Inhalt von Objekten",
+            "B: '&&' ist ein bitweiser Operator",
+            "C: '!=' prüft auf Ungleichheit",
+            "D: '=' vergleicht zwei Werte"
+        ],
+        "korrekteAntwort": 2,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "mittel"
+    },
+    {
+        "frage": "Welche der folgenden Anweisungen führt zu einem Kompilierungsfehler?",
+        "optionen": [
+            "A: int x = 5.5;",
+            "B: double y = 5;",
+            "C: char c = 'A';",
+            "D: boolean b = false;"
+        ],
+        "korrekteAntwort": 0,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "schwer"
+    },
+    {
+        "frage": "Was ist der Unterschied zwischen '==' und 'equals()' in Java?",
+        "optionen": [
+            "A: Es gibt keinen Unterschied",
+            "B: '==' vergleicht Referenzen, 'equals()' vergleicht Inhalte",
+            "C: Beide vergleichen Inhalte",
+            "D: '==' vergleicht nur primitive Typen"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "schwer"
+    },
+    {
+        "frage": "Was passiert, wenn man 'int result = 1 / 0;' in Java ausführt?",
+        "optionen": [
+            "A: result ist 0",
+            "B: Das Programm gibt 'Infinity' aus",
+            "C: Es wird eine ArithmeticException ausgelöst",
+            "D: Der Compiler gibt einen Fehler aus"
+        ],
+        "korrekteAntwort": 2,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "schwer"
+    },
+    {
+        "frage": "Was ist die maximale Größe eines 'byte'-Wertes in Java?",
+        "optionen": [
+            "A: 256",
+            "B: 127",
+            "C: 255",
+            "D: 128"
+        ],
+        "korrekteAntwort": 1,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "schwer"
+    },
+    {
+        "frage": "Was ist die korrekte Signatur der 'main'-Methode in Java?",
+        "optionen": [
+            "A: public void main(String[] args)",
+            "B: static void main(String args[])",
+            "C: public static void main(String[] args)",
+            "D: void main(String args[])"
+        ],
+        "korrekteAntwort": 2,
+        "kategorie": "Grundlagen Java",
+        "schwierigkeit": "schwer"
+    }
+]}

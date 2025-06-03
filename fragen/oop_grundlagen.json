@@ -1,0 +1,170 @@
+{
+    "kategorie": "OOP Grundlagen",
+    "fragen": [
+        {
+            "frage": "Was bedeutet OOP in der Programmierung?",
+            "optionen": [
+                "A: Objektorientiertes Programmieren",
+                "B: Offene Operationsplattform",
+                "C: Online Operationsprozess",
+                "D: Objektives Ordnungsprinzip"
+            ],
+            "richtigeAntwort": 0,
+            "schwierigkeit": "leicht"
+        },
+        {
+            "frage": "Welche Sprache ist besonders bekannt für objektorientiertes Programmieren?",
+            "optionen": [
+                "A: HTML",
+                "B: CSS",
+                "C: Java",
+                "D: SQL"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "leicht"
+        },
+        {
+            "frage": "Was ist ein Objekt in OOP?",
+            "optionen": [
+                "A: Ein Datentyp",
+                "B: Eine Methode",
+                "C: Eine Instanz einer Klasse",
+                "D: Ein Array"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "leicht"
+        },
+        {
+            "frage": "Welche der folgenden ist KEIN OOP-Prinzip?",
+            "optionen": [
+                "A: Vererbung",
+                "B: Polymorphie",
+                "C: Kapselung",
+                "D: SQL-Abfrage"
+            ],
+            "richtigeAntwort": 3,
+            "schwierigkeit": "leicht"
+        },
+        {
+            "frage": "Was beschreibt eine Klasse in OOP?",
+            "optionen": [
+                "A: Einen Datensatz",
+                "B: Eine Schablone für Objekte",
+                "C: Eine Bibliothek",
+                "D: Einen Speicherort"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "leicht"
+        },
+        {
+            "frage": "Was ist Kapselung (Encapsulation)?",
+            "optionen": [
+                "A: Zugriff auf private Daten beschränken",
+                "B: Zugriff auf andere Programme erlauben",
+                "C: Daten in Datenbanken speichern",
+                "D: Methoden duplizieren"
+            ],
+            "richtigeAntwort": 0,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Was ist Polymorphie in OOP?",
+            "optionen": [
+                "A: Eine neue Programmiersprache",
+                "B: Die Möglichkeit, dieselbe Methode unterschiedlich zu implementieren",
+                "C: Eine Art von Fehler",
+                "D: Ein Datentyp"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Was beschreibt Vererbung (Inheritance)?",
+            "optionen": [
+                "A: Methoden löschen",
+                "B: Methoden von anderen Klassen übernehmen",
+                "C: Code verschlüsseln",
+                "D: Daten vererben"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Wie bezeichnet man die Fähigkeit einer Methode, unterschiedlich zu reagieren, je nach Kontext?",
+            "optionen": [
+                "A: Kapselung",
+                "B: Überladen",
+                "C: Polymorphie",
+                "D: Aggregation"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Was ist ein Konstruktor in Java?",
+            "optionen": [
+                "A: Eine Methode, um Objekte zu erzeugen",
+                "B: Eine Schleife",
+                "C: Eine Datenbankverbindung",
+                "D: Eine Schnittstelle"
+            ],
+            "richtigeAntwort": 0,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Was ist eine abstrakte Klasse?",
+            "optionen": [
+                "A: Eine Klasse ohne Methoden",
+                "B: Eine Klasse, die nicht instanziiert werden kann",
+                "C: Eine Methode mit final",
+                "D: Eine Methode ohne Parameter"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Was ist ein Interface in Java?",
+            "optionen": [
+                "A: Eine Klasse mit privaten Attributen",
+                "B: Eine Sammlung von Konstanten",
+                "C: Eine Klasse mit Implementierungen",
+                "D: Ein Vertrag, den Klassen erfüllen müssen"
+            ],
+            "richtigeAntwort": 3,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Was ist der Unterschied zwischen Vererbung und Schnittstelle (Interface)?",
+            "optionen": [
+                "A: Kein Unterschied",
+                "B: Vererbung erlaubt Implementierungen, Interfaces nicht",
+                "C: Schnittstellen sind private",
+                "D: Vererbungen haben keine Methoden"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Was bedeutet 'this' in Java?",
+            "optionen": [
+                "A: Zugriff auf die Superklasse",
+                "B: Zugriff auf aktuelle Objektinstanz",
+                "C: Zugriff auf eine Methode",
+                "D: Zugriff auf eine Datei"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Was ist 'super' in Java?",
+            "optionen": [
+                "A: Eine Bibliothek",
+                "B: Eine Methode zum Beenden",
+                "C: Ein Verweis auf die Superklasse",
+                "D: Ein Datentyp"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "schwer"
+        }
+    ]
+}
