@@ -25,6 +25,7 @@ public class GameWindow extends JFrame {
         }
 
         setTitle("Wer wird Millionär - Spieler: " + spielerName);
+        setTitle("Wer wird Millionär");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(600, 400);
         setLayout(new BorderLayout());

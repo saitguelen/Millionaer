@@ -11,7 +11,6 @@ import com.sait.millionaire.data.ScoreEntry;
 import com.sait.millionaire.data.ScoreManager;
 
 
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -110,7 +109,6 @@ public class Game {
                     System.out.println("❌ Ungültiger Joker oder bereits benutzt.");
                 }
             } else {
-                System.out.println(frage.getFrage());
                 for (String option : frage.getOptionen()) {
                     System.out.println(option);
                 }
