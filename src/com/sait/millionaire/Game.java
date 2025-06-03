@@ -11,6 +11,7 @@ import com.sait.millionaire.data.ScoreEntry;
 import com.sait.millionaire.data.ScoreManager;
 
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -19,7 +20,8 @@ public class Game {
 
     public static void main(String[] args) {
 
-        //javax.swing.SwingUtilities.invokeLater(() -> new GameWindow());
+       // javax.swing.SwingUtilities.invokeLater(() -> new GameWindow());
+       // SwingUtilities.invokeLater(GameWindow::new);
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Bitte deinen Namen eingeben: ");
@@ -108,7 +110,7 @@ public class Game {
                     System.out.println("❌ Ungültiger Joker oder bereits benutzt.");
                 }
             } else {
-                // Eğer joker kullanılmazsa seçenekleri tekrar göster
+                System.out.println(frage.getFrage());
                 for (String option : frage.getOptionen()) {
                     System.out.println(option);
                 }

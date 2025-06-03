@@ -14,9 +14,17 @@ public class GameWindow extends JFrame {
     private JButton[] optionButtons;
     private List<Question> fragen;
     private int aktuelleFrage = 0;
+    private String spielerName;
 
     public GameWindow() {
-        setTitle("Wer wird Millionär");
+        // Spielername abfragen
+        spielerName = NameDialog.frageSpielerName();
+        if (spielerName == null || spielerName.isBlank()) {
+            JOptionPane.showMessageDialog(this, "Kein Name eingegeben. Spiel wird beendet.");
+            System.exit(0);
+        }
+
+        setTitle("Wer wird Millionär - Spieler: " + spielerName);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(600, 400);
         setLayout(new BorderLayout());
@@ -81,5 +89,4 @@ public class GameWindow extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(GameWindow::new);
     }
-
 }
