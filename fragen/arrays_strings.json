@@ -1,0 +1,185 @@
+{
+  "kategorie": "OOP Grundlagen",
+  "fragen":[
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "einfach",
+    "frage": "Wie initialisiert man ein leeres Array in Java?",
+    "optionen": [
+      "String[] arr = {}",
+      "String arr = new String[];",
+      "String[] arr = new String[0];",
+      "Array arr = new String[];"
+    ],
+    "richtigeAntwort": 2
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "einfach",
+    "frage": "Wie greift man auf das dritte Element eines Arrays zu?",
+    "optionen": [
+      "array[2]",
+      "array(3)",
+      "array[3]",
+      "array.get(2)"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "einfach",
+    "frage": "Welche Methode gibt die Länge eines Arrays zurück?",
+    "optionen": [
+      "length()",
+      "length",
+      "size()",
+      "getLength()"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "einfach",
+    "frage": "Wie wird ein String in Java korrekt verglichen?",
+    "optionen": [
+      "str == 'Hallo'",
+      "str.equals('Hallo')",
+      "str = 'Hallo'",
+      "str.compare('Hallo')"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "einfach",
+    "frage": "Wie verbindet man zwei Strings in Java?",
+    "optionen": [
+      "str1 + str2",
+      "str1 & str2",
+      "str1.concat(str2)",
+      "Beides A und C"
+    ],
+    "richtigeAntwort": 3
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "mittel",
+    "frage": "Wie kann man ein Array vollständig durchlaufen?",
+    "optionen": [
+      "mit einer while-Schleife",
+      "mit einer for-each Schleife",
+      "mit einer for-Schleife",
+      "Alle Antworten sind korrekt"
+    ],
+    "richtigeAntwort": 3
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "mittel",
+    "frage": "Welche Methode prüft, ob ein String mit einem bestimmten Wert endet?",
+    "optionen": [
+      "endsWith()",
+      "startsWith()",
+      "contains()",
+      "matches()"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "mittel",
+    "frage": "Wie trennt man einen String anhand eines Trennzeichens?",
+    "optionen": [
+      "split()",
+      "divide()",
+      "cut()",
+      "slice()"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "mittel",
+    "frage": "Wie ersetzt man Teile eines Strings?",
+    "optionen": [
+      "replace()",
+      "change()",
+      "substitute()",
+      "modify()"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "mittel",
+    "frage": "Wie kopiert man ein Array?",
+    "optionen": [
+      "System.arraycopy()",
+      "array.clone()",
+      "Arrays.copyOf()",
+      "Alle Antworten sind korrekt"
+    ],
+    "richtigeAntwort": 3
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "schwer",
+    "frage": "Was bewirkt der Ausdruck: Arrays.equals(arr1, arr2)?",
+    "optionen": [
+      "Vergleicht Inhalte",
+      "Vergleicht Speicheradressen",
+      "Verbindet zwei Arrays",
+      "Sortiert Arrays"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "schwer",
+    "frage": "Wie zählt man Vorkommen eines Zeichens in einem String?",
+    "optionen": [
+      "for-Schleife und charAt()",
+      "indexOf()",
+      "lastIndexOf()",
+      "contains()"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "schwer",
+    "frage": "Wie vergleicht man Strings ohne Beachtung der Groß-/Kleinschreibung?",
+    "optionen": [
+      "equalsIgnoreCase()",
+      "equals()",
+      "==",
+      "compareTo()"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "schwer",
+    "frage": "Was macht Arrays.sort() mit einem String-Array?",
+    "optionen": [
+      "Sortiert alphabetisch",
+      "Sortiert nach Länge",
+      "Gibt neue Liste",
+      "Vertauscht Elemente zufällig"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Arrays & Strings",
+    "schwierigkeit": "schwer",
+    "frage": "Wie prüft man, ob ein Array leer ist?",
+    "optionen": [
+      "array.length == 0",
+      "array == null",
+      "array.isEmpty()",
+      "array == []"
+    ],
+    "richtigeAntwort": 0
+  }
+]
+}

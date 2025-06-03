@@ -1,0 +1,857 @@
+[
+  {
+    "1.frage": "Welche Methode ist der Einstiegspunkt in ein Java-Programm?",
+    "optionen": ["A: start()", "B: main()", "C: run()", "D: init()"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "leicht"
+  },
+  {
+    "2.frage": "Welcher Datentyp wird für ganze Zahlen verwendet?",
+    "optionen": ["A: float", "B: boolean", "C: int", "D: char"],
+    "korrekteAntwort": 2,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "leicht"
+  },
+  {
+    "3.frage": "Was bedeutet '//' in Java?",
+    "optionen": ["A: Division", "B: Einzeiliger Kommentar", "C: Schleife", "D: Operator"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "leicht"
+  },
+  {
+    "4.frage": "Welche Anweisung wird verwendet, um andere Klassen zu verwenden?",
+    "optionen": ["A: include", "B: import", "C: use", "D: reference"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "leicht"
+  },
+  {
+    "5.frage": "Was ergibt der Ausdruck 5 + 3 * 2 in Java?",
+    "optionen": ["A: 16", "B: 11", "C: 13", "D: 10"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "leicht"
+  },
+  {
+    "6.frage": "Was ist das Ergebnis von 10 / 3 in Java, wenn beide Operanden vom Typ int sind?",
+    "optionen": ["A: 3.33", "B: 3", "C: 4", "D: 3.0"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "mittel"
+  },
+  {
+    "7.frage": "Welche der folgenden Optionen ist ein gültiger Bezeichner in Java?",
+    "optionen": ["A: 2value", "B: _value", "C: value!", "D: #value"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "mittel"
+  },
+  {
+    "8.frage": "Welche dieser Datentypen benötigt am meisten Speicherplatz?",
+    "optionen": ["A: int", "B: double", "C: short", "D: byte"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "mittel"
+  },
+  {
+    "9.frage": "Was ist der Standardwert einer nicht initialisierten int-Variablen in einer Klasse?",
+    "optionen": ["A: null", "B: 0", "C: undefined", "D: -1"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "mittel"
+  },
+  {
+    "10.frage": "Welche Aussage über Java-Operatoren ist korrekt?",
+    "optionen": [
+      "A: '==' prüft den Inhalt von Objekten",
+      "B: '&&' ist ein bitweiser Operator",
+      "C: '!=' prüft auf Ungleichheit",
+      "D: '=' vergleicht zwei Werte"
+    ],
+    "korrekteAntwort": 2,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "mittel"
+  },
+  {
+    "11.frage": "Welche der folgenden Anweisungen führt zu einem Kompilierungsfehler?",
+    "optionen": [
+      "A: int x = 5.5;",
+      "B: double y = 5;",
+      "C: char c = 'A';",
+      "D: boolean b = false;"
+    ],
+    "korrekteAntwort": 0,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "schwer"
+  },
+  {
+    "12.frage": "Welche der folgenden Anweisungen führt zu einem Kompilierungsfehler?",
+    "optionen": [
+      "A: int x = 5.5;",
+      "B: double y = 5;",
+      "C: char c = 'A';",
+      "D: boolean b = false;"
+    ],
+    "korrekteAntwort": 0,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "schwer"
+  },
+  {
+    "13.frage": "Was passiert, wenn man 'int result = 1 / 0;' in Java ausführt?",
+    "optionen": [
+      "A: result ist 0",
+      "B: Das Programm gibt 'Infinity' aus",
+      "C: Es wird eine ArithmeticException ausgelöst",
+      "D: Der Compiler gibt einen Fehler aus"
+    ],
+    "korrekteAntwort": 2,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "schwer"
+  },
+  {
+    "14.frage": "Was ist die maximale Größe eines 'byte'-Wertes in Java?",
+    "optionen": ["A: 256", "B: 127", "C: 255", "D: 128"],
+    "korrekteAntwort": 1,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "schwer"
+  },
+  {
+    "15.frage": "Was ist die korrekte Signatur der 'main'-Methode in Java?",
+    "optionen": [
+      "A: public void main(String[] args)",
+      "B: static void main(String args[])",
+      "C: public static void main(String[] args)",
+      "D: void main(String args[])"
+    ],
+    "korrekteAntwort": 2,
+    "kategorie": "Grundlagen Java",
+    "schwierigkeit": "schwer"
+  },
+  {
+    "kategorie": "if-else & switch",
+    "fragen": [
+      {
+        "frage": "Was ist die Hauptfunktion einer if-Anweisung in Java?",
+        "optionen": [
+          "A: Wiederholungen erstellen",
+          "B: Bedingungen prüfen",
+          "C: Schleifen abbrechen",
+          "D: Methoden definieren"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "einfach"
+      },
+      {
+        "frage": "Welche der folgenden Optionen ist die korrekte Syntax einer if-Anweisung in Java?",
+        "optionen": [
+          "A: if {x > 5}",
+          "B: if x > 5",
+          "C: if(x > 5)",
+          "D: if x > 5 then"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "einfach"
+      },
+      {
+        "frage": "Was ist die Ausgabe von: if (5 > 3) { System.out.println(\"Ja\"); }?",
+        "optionen": [
+          "A: Nein",
+          "B: Ja",
+          "C: Fehler",
+          "D: nichts"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "einfach"
+      },
+      {
+        "frage": "Was passiert, wenn die Bedingung in einer if-Anweisung falsch ist und kein else-Zweig vorhanden ist?",
+        "optionen": [
+          "A: Ein Fehler tritt auf",
+          "B: Es wird nichts ausgeführt",
+          "C: Der Code wird wiederholt",
+          "D: Es wird else ausgeführt"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "einfach"
+      },
+      {
+        "frage": "Welche Anweisung überprüft mehrere Bedingungen in Reihenfolge?",
+        "optionen": [
+          "A: switch",
+          "B: loop",
+          "C: else if",
+          "D: return"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "einfach"
+      },
+      {
+        "frage": "Was ist das Ergebnis des folgenden Codes?\nint x = 10;\nif (x < 5) {\n  System.out.println(\"Klein\");\n} else {\n  System.out.println(\"Groß\");\n}",
+        "optionen": [
+          "A: Klein",
+          "B: Groß",
+          "C: Fehler",
+          "D: 10"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was passiert, wenn kein break in einem switch-Case verwendet wird?",
+        "optionen": [
+          "A: Nur der passende Case wird ausgeführt",
+          "B: Alle Cases werden übersprungen",
+          "C: Es entsteht eine Endlosschleife",
+          "D: Der Code läuft durch die folgenden Cases weiter"
+        ],
+        "richtigeAntwort": 3,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Welche Datentypen können in einem switch verwendet werden?",
+        "optionen": [
+          "A: int, String, enum",
+          "B: float, double",
+          "C: boolean, byte",
+          "D: char, long"
+        ],
+        "richtigeAntwort": 0,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Wie viele else-Zweige kann eine if-else-Kette maximal haben?",
+        "optionen": [
+          "A: Unendlich viele",
+          "B: Einen",
+          "C: Zwei",
+          "D: Keine"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Welche Option ist KEIN gültiger switch-Ausdruck in Java?",
+        "optionen": [
+          "A: int",
+          "B: String",
+          "C: double",
+          "D: enum"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Wie reagiert Java, wenn keine break-Anweisung in einem switch-Case verwendet wird?",
+        "optionen": [
+          "A: Nur default wird ausgeführt",
+          "B: Alle folgenden Cases werden ausgeführt",
+          "C: Es wird ein Fehler ausgelöst",
+          "D: Der Compiler verweigert die Ausführung"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was ist die Ausgabe dieses Codes?\nint tag = 3;\nswitch(tag) {\n  case 1: System.out.print(\"Mo\");\n  case 3: System.out.print(\"Mi\"); break;\n  default: System.out.print(\"So\");\n}",
+        "optionen": [
+          "A: Mi",
+          "B: MiSo",
+          "C: MoMiSo",
+          "D: MoMi"
+        ],
+        "richtigeAntwort": 0,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Kann ein switch-Block auch verschachtelte if-Anweisungen enthalten?",
+        "optionen": [
+          "A: Nein",
+          "B: Nur mit Methoden",
+          "C: Ja",
+          "D: Nur mit Schleifen"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was passiert, wenn zwei case-Werte im switch identisch sind?",
+        "optionen": [
+          "A: Der erste wird ignoriert",
+          "B: Es entsteht ein Compilerfehler",
+          "C: Beide werden ausgeführt",
+          "D: Der letzte wird bevorzugt"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was ist die maximale Tiefe einer if-else-Verschachtelung in Java?",
+        "optionen": [
+          "A: 32",
+          "B: 64",
+          "C: Abhängig vom Stack",
+          "D: Unbegrenzt"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "schwer"
+      }
+    ]
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "einfach",
+    "frage": "Welche Schleife wird in Java verwendet, um einen Block mehrmals auszuführen, solange eine Bedingung wahr ist?",
+    "optionen": [
+      "A: if",
+      "B: for",
+      "C: switch",
+      "D: break"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "einfach",
+    "frage": "Welche Schleife prüft die Bedingung am Ende der Schleife?",
+    "optionen": [
+      "A: for",
+      "B: while",
+      "C: do-while",
+      "D: switch"
+    ],
+    "richtigeAntwort": 2
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "einfach",
+    "frage": "Welche Schleife ist geeignet, wenn man die Anzahl der Wiederholungen im Voraus kennt?",
+    "optionen": [
+      "A: while",
+      "B: do-while",
+      "C: for",
+      "D: if"
+    ],
+    "richtigeAntwort": 2
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "einfach",
+    "frage": "Wie beginnt eine 'for'-Schleife in Java?",
+    "optionen": [
+      "A: for i = 0",
+      "B: for (int i = 0; i < n; i++)",
+      "C: repeat(i < n)",
+      "D: loop i in range"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "einfach",
+    "frage": "Was macht die 'break'-Anweisung in einer Schleife?",
+    "optionen": [
+      "A: Wiederholt die Schleife",
+      "B: Springt zur nächsten Iteration",
+      "C: Beendet die Schleife",
+      "D: Macht nichts"
+    ],
+    "richtigeAntwort": 2
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "mittel",
+    "frage": "Wie viele Male wird der folgende Codeblock ausgeführt? for (int i = 0; i < 5; i++)",
+    "optionen": [
+      "A: 4",
+      "B: 5",
+      "C: 6",
+      "D: unendlich"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "mittel",
+    "frage": "Welche Ausgabe erzeugt: for (int i = 1; i <= 3; i++) { System.out.print(i); }",
+    "optionen": [
+      "A: 123",
+      "B: 012",
+      "C: 0123",
+      "D: 321"
+    ],
+    "richtigeAntwort": 0
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "mittel",
+    "frage": "Welche Schleife wird auf jeden Fall mindestens einmal ausgeführt?",
+    "optionen": [
+      "A: for",
+      "B: while",
+      "C: do-while",
+      "D: keine"
+    ],
+    "richtigeAntwort": 2
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "mittel",
+    "frage": "Was macht continue in einer Schleife?",
+    "optionen": [
+      "A: Beendet die Schleife",
+      "B: Überspringt die aktuelle Iteration",
+      "C: Startet das Programm neu",
+      "D: Erhöht den Schleifenzähler"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "mittel",
+    "frage": "Was ist das Ergebnis? int i=0; while(i<3){ i++; System.out.print(i); }",
+    "optionen": [
+      "A: 012",
+      "B: 123",
+      "C: 345",
+      "D: 111"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "schwer",
+    "frage": "Welche Schleife kann zu einer Endlosschleife führen, wenn die Bedingung nie falsch wird?",
+    "optionen": [
+      "A: for",
+      "B: while",
+      "C: do-while",
+      "D: alle"
+    ],
+    "richtigeAntwort": 3
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "schwer",
+    "frage": "Was passiert, wenn i nicht erhöht wird in for (int i=0; i<5;)?",
+    "optionen": [
+      "A: Fehler",
+      "B: Einmal ausgeführt",
+      "C: Endlosschleife",
+      "D: Nichts"
+    ],
+    "richtigeAntwort": 2
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "schwer",
+    "frage": "Wie viele Sterne werden ausgegeben? for(int i=0;i<3;i++){ for(int j=0;j<2;j++){ System.out.print(\"*\"); } }",
+    "optionen": [
+      "A: 3",
+      "B: 6",
+      "C: 9",
+      "D: 2"
+    ],
+    "richtigeAntwort": 1
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "schwer",
+    "frage": "Was erzeugt den gleichen Effekt wie for(int i=0;i<10;i++)?",
+    "optionen": [
+      "A: while(i<10)",
+      "B: do{i++;}while(i<10)",
+      "C: int i=0; while(i<10){ i++; }",
+      "D: alle"
+    ],
+    "richtigeAntwort": 3
+  },
+  {
+    "kategorie": "Schleifen",
+    "level": "schwer",
+    "frage": "Welche der folgenden ist KEINE gültige for-Schleife?",
+    "optionen": [
+      "A: for(;;)",
+      "B: for(i=0;i<10;i++)",
+      "C: for(int i=0;i<10)",
+      "D: for(int i=0;i<10;i++)"
+    ],
+    "richtigeAntwort": 2
+  },
+
+  [
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "einfach",
+      "frage": "Wie initialisiert man ein leeres Array in Java?",
+      "optionen": ["String[] arr = {}", "String arr = new String[];", "String[] arr = new String[0];", "Array arr = new String[];"],
+      "richtigeAntwort": 2
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "einfach",
+      "frage": "Wie greift man auf das dritte Element eines Arrays zu?",
+      "optionen": ["array[2]", "array(3)", "array[3]", "array.get(2)"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "einfach",
+      "frage": "Welche Methode gibt die Länge eines Arrays zurück?",
+      "optionen": ["length()", "length", "size()", "getLength()"],
+      "richtigeAntwort": 1
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "einfach",
+      "frage": "Wie wird ein String in Java korrekt verglichen?",
+      "optionen": ["str == 'Hallo'", "str.equals('Hallo')", "str = 'Hallo'", "str.compare('Hallo')"],
+      "richtigeAntwort": 1
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "einfach",
+      "frage": "Wie verbindet man zwei Strings in Java?",
+      "optionen": ["str1 + str2", "str1 & str2", "str1.concat(str2)", "Beides A und C"],
+      "richtigeAntwort": 3
+    },
+
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "mittel",
+      "frage": "Wie kann man ein Array vollständig durchlaufen?",
+      "optionen": ["mit einer while-Schleife", "mit einer for-each Schleife", "mit einer for-Schleife", "Alle Antworten sind korrekt"],
+      "richtigeAntwort": 3
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "mittel",
+      "frage": "Welche Methode prüft, ob ein String mit einem bestimmten Wert endet?",
+      "optionen": ["endsWith()", "startsWith()", "contains()", "matches()"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "mittel",
+      "frage": "Wie trennt man einen String anhand eines Trennzeichens?",
+      "optionen": ["split()", "divide()", "cut()", "slice()"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "mittel",
+      "frage": "Wie ersetzt man Teile eines Strings?",
+      "optionen": ["replace()", "change()", "substitute()", "modify()"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "mittel",
+      "frage": "Wie kopiert man ein Array?",
+      "optionen": ["System.arraycopy()", "array.clone()", "Arrays.copyOf()", "Alle Antworten sind korrekt"],
+      "richtigeAntwort": 3
+    },
+
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "schwer",
+      "frage": "Was bewirkt der Ausdruck: Arrays.equals(arr1, arr2)?",
+      "optionen": ["Vergleicht Inhalte", "Vergleicht Speicheradressen", "Verbindet zwei Arrays", "Sortiert Arrays"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "schwer",
+      "frage": "Wie zählt man Vorkommen eines Zeichens in einem String?",
+      "optionen": ["for-Schleife und charAt()", "indexOf()", "lastIndexOf()", "contains()"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "schwer",
+      "frage": "Wie vergleicht man Strings ohne Beachtung der Groß-/Kleinschreibung?",
+      "optionen": ["equalsIgnoreCase()", "equals()", "==", "compareTo()"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "schwer",
+      "frage": "Was macht Arrays.sort() mit einem String-Array?",
+      "optionen": ["Sortiert alphabetisch", "Sortiert nach Länge", "Gibt neue Liste", "Vertauscht Elemente zufällig"],
+      "richtigeAntwort": 0
+    },
+    {
+      "kategorie": "Arrays & Strings",
+      "schwierigkeit": "schwer",
+      "frage": "Wie prüft man, ob ein Array leer ist?",
+      "optionen": ["array.length == 0", "array == null", "array.isEmpty()", "array == []"],
+      "richtigeAntwort": 0
+    },
+    [
+      {
+        "frage": "Was ist Vererbung in Java?",
+        "optionen": ["A: Ein Mechanismus zur Wiederverwendung von Code", "B: Eine Methode zur Datenverschlüsselung", "C: Eine Schleifenart", "D: Ein Datentyp"],
+        "korrekteAntwort": 0,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Welches Schlüsselwort wird verwendet, um eine Klasse zu erben?",
+        "optionen": ["A: inherits", "B: implements", "C: extends", "D: super"],
+        "korrekteAntwort": 2,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Welche Klasse ist die Oberklasse aller Java-Klassen?",
+        "optionen": ["A: System", "B: Object", "C: Class", "D: Base"],
+        "korrekteAntwort": 1,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Was bedeutet 'super' in Java?",
+        "optionen": ["A: Eine neue Instanz erzeugen", "B: Auf Methoden der Superklasse zugreifen", "C: Ein Interface implementieren", "D: Eine Klasse abschließen"],
+        "korrekteAntwort": 1,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Kann eine Klasse mehrere Klassen erben?",
+        "optionen": ["A: Ja", "B: Nein", "C: Nur mit Interfaces", "D: Nur mit abstrakten Klassen"],
+        "korrekteAntwort": 1,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Was passiert, wenn eine Subklasse eine Methode der Superklasse überschreibt?",
+        "optionen": ["A: Beide Methoden werden ausgeführt", "B: Nur die Methode der Superklasse wird ausgeführt", "C: Die Methode der Subklasse ersetzt die alte", "D: Es gibt einen Fehler"],
+        "korrekteAntwort": 2,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was ist 'Method Overriding'?",
+        "optionen": ["A: Eine Methode mit demselben Namen aber anderem Rückgabetyp", "B: Eine Methode mit anderem Namen", "C: Eine Methode mit gleichem Namen und Parametern in Subklasse", "D: Eine Methode ohne Parameter"],
+        "korrekteAntwort": 2,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Wie nennt man es, wenn eine Methode in mehreren Formen existiert?",
+        "optionen": ["A: Vererbung", "B: Überladen", "C: Abstraktion", "D: Polymorphismus"],
+        "korrekteAntwort": 3,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Welche Methoden kann eine Subklasse erben?",
+        "optionen": ["A: private Methoden", "B: statische Methoden", "C: Konstruktoren", "D: öffentliche Methoden"],
+        "korrekteAntwort": 3,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was passiert, wenn keine explizite Superklasse angegeben ist?",
+        "optionen": ["A: Die Klasse ist ungültig", "B: Die Klasse erbt automatisch von Object", "C: Die Klasse ist abstrakt", "D: Es entsteht ein Fehler"],
+        "korrekteAntwort": 1,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was bedeutet 'final class'?",
+        "optionen": ["A: Sie kann nicht instanziiert werden", "B: Sie kann nicht erweitert werden", "C: Sie kann nicht importiert werden", "D: Sie ist abstrakt"],
+        "korrekteAntwort": 1,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was passiert, wenn man 'super()' im Konstruktor verwendet?",
+        "optionen": ["A: Ruft den Konstruktor der Subklasse auf", "B: Ruft eine Methode der gleichen Klasse auf", "C: Ruft den Konstruktor der Superklasse auf", "D: Führt nichts aus"],
+        "korrekteAntwort": 2,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Wie kann man eine Methode explizit aus der Superklasse aufrufen?",
+        "optionen": ["A: this.methode()", "B: methode.super()", "C: super.methode()", "D: base.methode()"],
+        "korrekteAntwort": 2,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was ist die richtige Aussage zur Mehrfachvererbung in Java?",
+        "optionen": ["A: Java erlaubt Mehrfachvererbung bei Klassen", "B: Java unterstützt keine Mehrfachvererbung", "C: Java unterstützt Mehrfachvererbung nur über Interfaces", "D: Java verwendet mixin-Klassen"],
+        "korrekteAntwort": 2,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Welche Aussage zu Vererbung ist falsch?",
+        "optionen": ["A: Eine Subklasse kann Methoden der Superklasse überschreiben", "B: Konstruktoren werden nicht vererbt", "C: Eine Klasse kann mehrere Klassen erben", "D: Vererbung unterstützt Code-Wiederverwendung"],
+        "korrekteAntwort": 2,
+        "schwierigkeit": "schwer"
+      }
+    ]
+
+  ],
+  {
+    "kategorie": "OOP Grundlagen",
+    "fragen": [
+      {
+        "frage": "Was bedeutet OOP in der Programmierung?",
+        "optionen": [
+          "A: Objektorientiertes Programmieren",
+          "B: Offene Operationsplattform",
+          "C: Online Operationsprozess",
+          "D: Objektives Ordnungsprinzip"
+        ],
+        "richtigeAntwort": 0,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Welche Sprache ist besonders bekannt für objektorientiertes Programmieren?",
+        "optionen": [
+          "A: HTML",
+          "B: CSS",
+          "C: Java",
+          "D: SQL"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Was ist ein Objekt in OOP?",
+        "optionen": [
+          "A: Ein Datentyp",
+          "B: Eine Methode",
+          "C: Eine Instanz einer Klasse",
+          "D: Ein Array"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Welche der folgenden ist KEIN OOP-Prinzip?",
+        "optionen": [
+          "A: Vererbung",
+          "B: Polymorphie",
+          "C: Kapselung",
+          "D: SQL-Abfrage"
+        ],
+        "richtigeAntwort": 3,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Was beschreibt eine Klasse in OOP?",
+        "optionen": [
+          "A: Einen Datensatz",
+          "B: Eine Schablone für Objekte",
+          "C: Eine Bibliothek",
+          "D: Einen Speicherort"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "leicht"
+      },
+      {
+        "frage": "Was ist Kapselung (Encapsulation)?",
+        "optionen": [
+          "A: Zugriff auf private Daten beschränken",
+          "B: Zugriff auf andere Programme erlauben",
+          "C: Daten in Datenbanken speichern",
+          "D: Methoden duplizieren"
+        ],
+        "richtigeAntwort": 0,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was ist Polymorphie in OOP?",
+        "optionen": [
+          "A: Eine neue Programmiersprache",
+          "B: Die Möglichkeit, dieselbe Methode unterschiedlich zu implementieren",
+          "C: Eine Art von Fehler",
+          "D: Ein Datentyp"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was beschreibt Vererbung (Inheritance)?",
+        "optionen": [
+          "A: Methoden löschen",
+          "B: Methoden von anderen Klassen übernehmen",
+          "C: Code verschlüsseln",
+          "D: Daten vererben"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Wie bezeichnet man die Fähigkeit einer Methode, unterschiedlich zu reagieren, je nach Kontext?",
+        "optionen": [
+          "A: Kapselung",
+          "B: Überladen",
+          "C: Polymorphie",
+          "D: Aggregation"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was ist ein Konstruktor in Java?",
+        "optionen": [
+          "A: Eine Methode, um Objekte zu erzeugen",
+          "B: Eine Schleife",
+          "C: Eine Datenbankverbindung",
+          "D: Eine Schnittstelle"
+        ],
+        "richtigeAntwort": 0,
+        "schwierigkeit": "mittel"
+      },
+      {
+        "frage": "Was ist eine abstrakte Klasse?",
+        "optionen": [
+          "A: Eine Klasse ohne Methoden",
+          "B: Eine Klasse, die nicht instanziiert werden kann",
+          "C: Eine Methode mit final",
+          "D: Eine Methode ohne Parameter"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was ist ein Interface in Java?",
+        "optionen": [
+          "A: Eine Klasse mit privaten Attributen",
+          "B: Eine Sammlung von Konstanten",
+          "C: Eine Klasse mit Implementierungen",
+          "D: Ein Vertrag, den Klassen erfüllen müssen"
+        ],
+        "richtigeAntwort": 3,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was ist der Unterschied zwischen Vererbung und Schnittstelle (Interface)?",
+        "optionen": [
+          "A: Kein Unterschied",
+          "B: Vererbung erlaubt Implementierungen, Interfaces nicht",
+          "C: Schnittstellen sind private",
+          "D: Vererbungen haben keine Methoden"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was bedeutet 'this' in Java?",
+        "optionen": [
+          "A: Zugriff auf die Superklasse",
+          "B: Zugriff auf aktuelle Objektinstanz",
+          "C: Zugriff auf eine Methode",
+          "D: Zugriff auf eine Datei"
+        ],
+        "richtigeAntwort": 1,
+        "schwierigkeit": "schwer"
+      },
+      {
+        "frage": "Was ist 'super' in Java?",
+        "optionen": [
+          "A: Eine Bibliothek",
+          "B: Eine Methode zum Beenden",
+          "C: Ein Verweis auf die Superklasse",
+          "D: Ein Datentyp"
+        ],
+        "richtigeAntwort": 2,
+        "schwierigkeit": "schwer"
+      }
+    ]
+  }
+
+
+]

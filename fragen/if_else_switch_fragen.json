@@ -1,0 +1,170 @@
+{
+    "kategorie": "if-else & switch",
+    "fragen": [
+        {
+            "frage": "Was ist die Hauptfunktion einer if-Anweisung in Java?",
+            "optionen": [
+                "A: Wiederholungen erstellen",
+                "B: Bedingungen prüfen",
+                "C: Schleifen abbrechen",
+                "D: Methoden definieren"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "einfach"
+        },
+        {
+            "frage": "Welche der folgenden Optionen ist die korrekte Syntax einer if-Anweisung in Java?",
+            "optionen": [
+                "A: if {x > 5}",
+                "B: if x > 5",
+                "C: if(x > 5)",
+                "D: if x > 5 then"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "einfach"
+        },
+        {
+            "frage": "Was ist die Ausgabe von: if (5 > 3) { System.out.println(\"Ja\"); }?",
+            "optionen": [
+                "A: Nein",
+                "B: Ja",
+                "C: Fehler",
+                "D: nichts"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "einfach"
+        },
+        {
+            "frage": "Was passiert, wenn die Bedingung in einer if-Anweisung falsch ist und kein else-Zweig vorhanden ist?",
+            "optionen": [
+                "A: Ein Fehler tritt auf",
+                "B: Es wird nichts ausgeführt",
+                "C: Der Code wird wiederholt",
+                "D: Es wird else ausgeführt"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "einfach"
+        },
+        {
+            "frage": "Welche Anweisung überprüft mehrere Bedingungen in Reihenfolge?",
+            "optionen": [
+                "A: switch",
+                "B: loop",
+                "C: else if",
+                "D: return"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "einfach"
+        },
+        {
+            "frage": "Was ist das Ergebnis des folgenden Codes?\nint x = 10;\nif (x < 5) {\n  System.out.println(\"Klein\");\n} else {\n  System.out.println(\"Groß\");\n}",
+            "optionen": [
+                "A: Klein",
+                "B: Groß",
+                "C: Fehler",
+                "D: 10"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Was passiert, wenn kein break in einem switch-Case verwendet wird?",
+            "optionen": [
+                "A: Nur der passende Case wird ausgeführt",
+                "B: Alle Cases werden übersprungen",
+                "C: Es entsteht eine Endlosschleife",
+                "D: Der Code läuft durch die folgenden Cases weiter"
+            ],
+            "richtigeAntwort": 3,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Welche Datentypen können in einem switch verwendet werden?",
+            "optionen": [
+                "A: int, String, enum",
+                "B: float, double",
+                "C: boolean, byte",
+                "D: char, long"
+            ],
+            "richtigeAntwort": 0,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Wie viele else-Zweige kann eine if-else-Kette maximal haben?",
+            "optionen": [
+                "A: Unendlich viele",
+                "B: Einen",
+                "C: Zwei",
+                "D: Keine"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Welche Option ist KEIN gültiger switch-Ausdruck in Java?",
+            "optionen": [
+                "A: int",
+                "B: String",
+                "C: double",
+                "D: enum"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "mittel"
+        },
+        {
+            "frage": "Wie reagiert Java, wenn keine break-Anweisung in einem switch-Case verwendet wird?",
+            "optionen": [
+                "A: Nur default wird ausgeführt",
+                "B: Alle folgenden Cases werden ausgeführt",
+                "C: Es wird ein Fehler ausgelöst",
+                "D: Der Compiler verweigert die Ausführung"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Was ist die Ausgabe dieses Codes?\nint tag = 3;\nswitch(tag) {\n  case 1: System.out.print(\"Mo\");\n  case 3: System.out.print(\"Mi\"); break;\n  default: System.out.print(\"So\");\n}",
+            "optionen": [
+                "A: Mi",
+                "B: MiSo",
+                "C: MoMiSo",
+                "D: MoMi"
+            ],
+            "richtigeAntwort": 0,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Kann ein switch-Block auch verschachtelte if-Anweisungen enthalten?",
+            "optionen": [
+                "A: Nein",
+                "B: Nur mit Methoden",
+                "C: Ja",
+                "D: Nur mit Schleifen"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Was passiert, wenn zwei case-Werte im switch identisch sind?",
+            "optionen": [
+                "A: Der erste wird ignoriert",
+                "B: Es entsteht ein Compilerfehler",
+                "C: Beide werden ausgeführt",
+                "D: Der letzte wird bevorzugt"
+            ],
+            "richtigeAntwort": 1,
+            "schwierigkeit": "schwer"
+        },
+        {
+            "frage": "Was ist die maximale Tiefe einer if-else-Verschachtelung in Java?",
+            "optionen": [
+                "A: 32",
+                "B: 64",
+                "C: Abhängig vom Stack",
+                "D: Unbegrenzt"
+            ],
+            "richtigeAntwort": 2,
+            "schwierigkeit": "schwer"
+        }
+    ]
+}
