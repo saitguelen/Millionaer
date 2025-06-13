@@ -109,6 +109,7 @@ public class Game {
                     System.out.println("❌ Ungültiger Joker oder bereits benutzt.");
                 }
             } else {
+                System.out.println(frage.getFrage());
                 for (String option : frage.getOptionen()) {
                     System.out.println(option);
                 }
